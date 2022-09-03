@@ -5,6 +5,9 @@ module.exports = {
     extend: {
         fontFamily: {
           'regular': ['Josefin Sans', 'sans-serif']
+        },
+        backgroundImage: {
+          'hero': "url(./images/bg-pattern-desktop.svg)"
         }
     },
   },
