@@ -4,17 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./styles.css">
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
   <title>Base Apparel coming soon page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+  <main class="bg-red-100 min-h-screen font-regular">
+    <section class="p-5">
+    <img class="w-24" src="./images/logo.svg" alt="Base apparel">
+    </section>
+    <picture>
+      <source media="(min-width:800px)" srcset="./images/hero-desktop.jpg">
+      <img class="w-full" src="./images/hero-mobile.jpg" alt="girl looking at the screen">
+    </picture>
+    <section class="text-center max-w-xs mx-auto px-2 py-8">
+      <h1 class="text-4xl uppercase font-semibold tracking-widest mb-5">
+        <span class="block font-thin text-red-300">We're</span> 
+        coming soon
+      </h1>
+      <p class="text-red-300 font-semibold text-sm mb-10 max-w-sm">
+        Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+      <form class="text-red-300 w-full flex justify-center text-sm">
+        <input class="text-slate-600 placeholder:text-red-300 bg-transparent border border-red-300 px-4 py-2.5 rounded-full w-full" type="email" name="email" id="email" placeholder="Email Address">
+        <button class="bg-gradient-to-r from-rose-300 to-rose-400 px-6 rounded-full ml-[-3rem] shadow-xl" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671"/></svg></button>
+      </form>
 
-  <h1 class="bg-red-600">We're coming soon</h1>
-
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
-
-  Email Address
+    </section>
+  </main>
 </body>
 </html>
