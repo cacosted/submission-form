@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./styles.css">
+  <script defer src="./main.js"></script>
 </head>
 <body>
   <main class="bg-gradient-to-b from-red-50 to-red-100 min-h-screen font-regular lg:grid lg:grid-cols-[1fr_40%] lg:grid-rows-[200px_1fr] max-h-screen lg:bg-hero lg:bg-no-repeat lg:bg-cover">
@@ -32,9 +33,12 @@
         Hello fellow shoppers! We're currently building our new fashion store.
         Add your email below to stay up-to-date with announcements and our launch deals.
       </p>
-      <form class="text-red-300 w-full flex justify-center lg:text-2xl border border-red-300 rounded-full">
-        <input class="text-slate-600 placeholder:text-red-300 bg-transparent  px-4 py-2.5 rounded-full w-full lg:py-5 lg:px-10" type="email" name="email" id="email" placeholder="Email Address">
-        <button class="bg-gradient-to-r from-rose-300 to-rose-400 px-8 rounded-full ml-[-3rem] shadow-xl lg:px-16 lg:ml-[-4rem]" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671"/></svg></button>
+      <form class="text-red-300 w-full lg:text-2xl">
+        <label for="email" class="border border-red-300 rounded-full flex justify-center">
+          <input class="text-slate-600 placeholder:text-red-300 bg-transparent px-4 py-2.5 rounded-full w-full lg:py-5 lg:px-10" type="text" name="email" id="email" placeholder="Email Address">
+          <button class="bg-gradient-to-r from-rose-300 to-rose-400 px-8 rounded-full ml-[-3rem] shadow-2xl lg:px-16 lg:ml-[-4rem] hover:from-rose-100 hover:to-rose-300" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671"/></svg></button>
+        </label>
+          <p id="helper" class="px-4 py-4 lg:px-8 text-left text-red-400"></p>
       </form>
 
     </section>
