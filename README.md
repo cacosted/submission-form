@@ -3,9 +3,10 @@
 This is a solution to the [Base Apparel coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Desktop 
-
+<img width="891" alt="image" src="https://user-images.githubusercontent.com/57645180/188328682-b4045728-ac02-4ae4-9275-175205cf55ee.png">
 
 ## Mobile
+<img width="242" alt="image" src="https://user-images.githubusercontent.com/57645180/188328666-cc2f43cb-f76d-4123-8e79-7c840739473e.png">
 
 
 ## Table of contents
@@ -33,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Demo: [Demo](/)
+- Live Demo: [Demo](https://cacosted-submission-form.netlify.app/)
 
 ## My process
 
@@ -43,7 +44,7 @@ Users should be able to:
 - JavaScript (+ES6) 
 - Flexbox
 - CSS Grid
-- [Tailwind](tailwindcss.com/)
+- [Tailwind](https://tailwindcss.com/)
 - Mobile-first workflow
 
 ### What I learned
