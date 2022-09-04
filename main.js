@@ -4,7 +4,6 @@ const label = email.parentNode
 const helperText = document.querySelector('#helper')
 
 const getErrorMessage = (text) => {
-  console.log(text);
   const hasAtSign = text.includes('@')
 
   if(text === '') {
